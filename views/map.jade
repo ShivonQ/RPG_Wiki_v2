@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  script(type='text/javascript', src='https://maps.googleapis.com/maps/api/js?callback=initMap', async defer)
+  script(type='text/javascript', src='./javascripts/make_image_map_tiles.js')
+  h1 
+    div#map_wrapper
+      div#map
+      include city_form

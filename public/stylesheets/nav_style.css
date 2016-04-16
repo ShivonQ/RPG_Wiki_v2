@@ -1,0 +1,21 @@
+li{
+  list-style-type:none;
+}
+a {
+  color: black  ;
+}
+li.nav_link a {
+  text-decoration: none; /*remove underlines */
+  text-align: center;
+  padding: 10px;
+  background: url(../images/stone_wall_for_banner.jpg) repeat;
+  border-right: 1px solid black /* todo should also exclude last item */
+}
+ul.nav_list {
+  list-style-type: none;  /*removes bullets */
+  margin:0;
+  padding: 10px 0px 20px 0px;
+}
+li.nav_link  {
+  float:left;
+}
