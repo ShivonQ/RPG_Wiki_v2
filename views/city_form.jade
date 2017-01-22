@@ -1,7 +1,7 @@
 block content
   div#city_data_entry_wrapper
     form(action='/add_city', method = 'POST')
-    
+
       fieldset
         legend#large_legend Add City
         label.form_label City Name :
@@ -14,10 +14,9 @@ block content
           input(label='lng', id='lng_display', name = 'lng_display' type='text')
         label.form_label Allegiance or Region:
           select(name='allegiance_select')
-            option(value="Please Select")
-            option(value='region 1')
-            option(value='region 2')
-            option(value='region 3')
-            option(value='region 4')
-            option(value='region 5')
-        
+            option(value="Please Select") This is
+            option(value='region 1') the text
+            option(value='region 2') that shows
+            option(value='region 3') up in
+            option(value='region 4') the
+            option(value='region 5') dropdown
